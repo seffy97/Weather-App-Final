@@ -3,7 +3,8 @@ body {
   position: relative;
   z-index: 0;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position-x: 140px;
+  background-position-y: 120px;
   background-size: auto;
   font-family: arial, sans-serif;
   }
@@ -40,9 +41,13 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  width: 600px;
+  height: 200px;
+  padding: 0;
+  margin: 0 auto;
 }
 .weather-app-wrapper {
-  max-width: 600px;
+  max-width: 500px;
   margin: 30px auto;
 }
 
@@ -50,6 +55,8 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  height: 250px;
+
 }
 
 .overview {
@@ -94,11 +101,4 @@ li:first-letter {
   margin: 0 auto;
   padding: 0 auto;
 
-}
-
-.footer-wrapper {
-  width: 600px;
-  height: 200px;
-  padding: 0;
-  margin: 0 auto;
 }
