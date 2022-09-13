@@ -111,3 +111,7 @@ li:first-letter {
 .humidity-wind {
   padding: 10px;
 }
+
+#forecast {
+ padding-top: 40px;
+}
