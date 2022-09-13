@@ -91,7 +91,7 @@ li:first-letter {
 }
 
 .all-text {
-font-family: 'Open Sans', sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   padding: 40px 60px 10px 60px;
   margin: 0 auto;
   padding: 0 auto;
