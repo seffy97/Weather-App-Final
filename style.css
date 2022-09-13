@@ -91,8 +91,7 @@ li:first-letter {
 }
 
 .all-text {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  margin: 20px;
+font-family: 'Open Sans', sans-serif;
   padding: 40px 60px 10px 60px;
   margin: 0 auto;
   padding: 0 auto;
