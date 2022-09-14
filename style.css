@@ -17,11 +17,6 @@ h1 {
   margin-bottom: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-}
-
 li {
   list-style: none;
   margin: 0;
@@ -90,16 +85,18 @@ li:first-letter {
   text-decoration: none;
 }
 
-.all-text {
-  font-family: "Helvetica Neue", "Arial", sans-serif;
+.header-text {
+  font-family: 'Roboto', sans-serif;
   padding: 40px 60px 10px 60px;
   margin: 0 auto;
   padding: 0 auto;
 }
 
 #allInfo {
-  color: #993955;
-  margin-left: -10px;
+color: #993955;
+display: block;
+margin-right: 300px;
+ 
 }
 
 #city {
@@ -109,9 +106,32 @@ li:first-letter {
 }
 
 .humidity-wind {
-  padding: 10px;
+  display: block;
+  padding: 50px;
+  position: relative;
+  left: -50px;
+  margin-top: 15px;
+  
 }
 
 #forecast {
   padding-top: 40px;
 }
+
+.forecast {
+  display: block;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+#header {
+  display: block;
+  text-align: center;
+
+}
+
+#githubLink {
+  display: block;
+  text-align: center;
+}
+

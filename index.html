@@ -13,16 +13,18 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css" />
 
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
     <title>Weather App</title>
   </head>
   <body>
 
-    <div class="all-text">
-      <div class="container">
+    <div class="header-text">
+      <div class="container-xl" id="header">
         <div class="weather-app-wrapper">
-          <div class="weather-app">
+          <div class="weather-app" id="header">
             <form id="search-form" class="mb-3">
               <div class="row">
                 <div class="col-9">
@@ -71,32 +73,22 @@
               </div>
             </div>
             <br/>
-            <div class="container-xl">
-            <div class="footer">
-                <div class="row">
-                  <div class="footer-wrapper">
-                  <div class="container text-center">
-                    <div class="row row-cols-auto">
-                      <div class="col">Column</div>
-                      <div class="col">Column</div>
-                      <div class="col">Column</div>
-                      <div class="col">Column</div>
-                      <div class="col">Column</div>
-                      <div class="col">Column</div>
+            </div>
+          </div>
+          </div>
+          </div>
+
+          <div class="footer-wrapper">
+            <div class="weather-forecast" id="forecast">
+                    
                     </div>
                   </div>
-                  </div>
-                </div>
-                </div>
           
-          
-          <small>
+          <small id="githubLink">
               Coded By
               <a href="https://github.com/seffy97" target="_blank">Sefika</a>
             </small>
-          </div>
         </div>
-      </div>
     <script src="app.js"></script>
   </body>
 </html>
